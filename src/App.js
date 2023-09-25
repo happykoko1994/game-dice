@@ -1,9 +1,10 @@
 import './App.css';
-import Component from './component';
+import Dice from './Dice';
 import { useState } from 'react';
 function App() {  
   return (
   <div>
+    <Dice/>
     
   </div>
   );
