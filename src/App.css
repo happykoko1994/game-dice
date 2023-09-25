@@ -1,0 +1,16 @@
+.container {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  height: 500px;
+}
+
+.container img {
+  width: 128px;
+  padding: 30px;
+  cursor: pointer;
+}

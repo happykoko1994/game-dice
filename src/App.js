@@ -1,13 +1,14 @@
 import './App.css';
 import Dice from './Dice';
 import { useState } from 'react';
-function App() {  
+function App() {
+  
   return (
-  <div>
-    <Dice/>
-    
-  </div>
+    <div>
+      <Dice/>
+      
+    </div>
   );
-  }
+}
 
 export default App;

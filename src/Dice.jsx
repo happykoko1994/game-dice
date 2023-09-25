@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './Dice.css'
+import Button from './Button'
 
 function Dice() {
 
@@ -32,7 +33,7 @@ function Dice() {
                 {img}
             </div>
             <div className='number'>Ваше число : <span>{number}</span></div>
-            <button onClick={randomNumber}>Ещё</button>
+            <Button randomNumber={randomNumber} />
         </div>
     )
 }
